@@ -30,8 +30,7 @@ carro.addEventListener('dragover', e=>{
 
 carro.addEventListener('drop', e=>{
     e.preventDefault();
-    let data = e.dataTransfer.getData('id');
-    console.log(data);
+    let data = e.dataTransfer.getData('text');
     if(data=='https://github.com/juanakan/Supermercado/blob/master/images/pera.png'){
         if(!hayPera){
             precioPera=2;
