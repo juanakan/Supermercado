@@ -1,0 +1,59 @@
+body{
+    background-color: #fff4e6;
+}
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5em;
+}
+.frutas {
+    background: #8f4b03;
+    padding: .5em;
+    border-radius: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .2fr 1fr .1fr .2fr 1fr;
+
+}
+.compra {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 5fr;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+
+.peras,
+.naranjas,
+.zanahorias,
+.sandias,
+.pepinos,
+.pimientos,
+.cebollas,
+.platanos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-size: contain;
+    border: .5em solid #8f4b03;
+    padding: .5em;
+    border-radius: 2em;
+    background-color: #ffd8a8;
+    color: #d9480f;
+}
+.tablaPrecio{
+    background: #ffd8a8;
+    border: .2em solid #8f4b03;
+    padding: .5em;
+    border-radius: 2em;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+}
+
+
