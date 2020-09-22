@@ -30,9 +30,9 @@ carro.addEventListener('dragover', e=>{
 
 carro.addEventListener('drop', e=>{
     e.preventDefault();
-    let data = e.dataTransfer.getData('text');
+    let data = e.dataTransfer.getData('id');
     console.log(data);
-    if(data=='file:///home/juan/Escritorio/supermarket/images/pera.png'){
+    if(data=='https://github.com/juanakan/Supermercado/blob/master/images/pera.png'){
         if(!hayPera){
             precioPera=2;
             let parrafo = document.createElement('p');
@@ -51,7 +51,7 @@ carro.addEventListener('drop', e=>{
 
         
     }
-    if(data=='file:///home/juan/Escritorio/supermarket/images/naranja.png'){
+    if(data=='https://github.com/juanakan/Supermercado/blob/master/images/naranja.png'){
         if(!hayNaranja){
             precioNaranja=2.5;
             let parrafo = document.createElement('p');
@@ -70,7 +70,7 @@ carro.addEventListener('drop', e=>{
 
         
     }
-    if(data=='file:///home/juan/Escritorio/supermarket/images/zanahoria.png'){
+    if(data=='https://github.com/juanakan/Supermercado/blob/master/images/zanahoria.png'){
         if(!hayZanahoria){
             precioZanahoria=1.2;
             let parrafo = document.createElement('p');
@@ -89,7 +89,7 @@ carro.addEventListener('drop', e=>{
 
         
     }
-    if(data=='file:///home/juan/Escritorio/supermarket/images/sandia.png'){
+    if(data=='https://github.com/juanakan/Supermercado/blob/master/images/sandia.png'){
         if(!haySandia){
             precioSandia=3;
             let parrafo = document.createElement('p');
@@ -108,7 +108,7 @@ carro.addEventListener('drop', e=>{
 
         
     }
-    if(data=='file:///home/juan/Escritorio/supermarket/images/pepino.png'){
+    if(data=='https://github.com/juanakan/Supermercado/blob/master/images/pepino.png'){
         if(!hayPepino){
             precioPepino=3.5;
             let parrafo = document.createElement('p');
@@ -127,7 +127,7 @@ carro.addEventListener('drop', e=>{
 
         
     }
-    if(data=='file:///home/juan/Escritorio/supermarket/images/pimiento.png'){
+    if(data=='https://github.com/juanakan/Supermercado/blob/master/images/pimiento.png'){
         if(!hayPimiento){
             precioPimiento=1;
             let parrafo = document.createElement('p');
@@ -146,7 +146,7 @@ carro.addEventListener('drop', e=>{
 
         
     }
-    if(data=='file:///home/juan/Escritorio/supermarket/images/cebolla.png'){
+    if(data=='https://github.com/juanakan/Supermercado/blob/master/images/cebolla.png'){
         if(!hayCebolla){
             precioCebolla=1.5;
             let parrafo = document.createElement('p');
@@ -165,7 +165,7 @@ carro.addEventListener('drop', e=>{
 
         
     }
-    if(data=='file:///home/juan/Escritorio/supermarket/images/platano.png'){
+    if(data=='https://github.com/juanakan/Supermercado/blob/master/images/platano.png'){
         if(!hayPlatano){
             precioPlatano = 4;
             let parrafo = document.createElement('p');
