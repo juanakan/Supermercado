@@ -359,7 +359,7 @@ carro.addEventListener('drop', e=>{
 
                 document.getElementById('costoNaranja').innerHTML=`Naranjas: ${precioNaranja}€`;
                 hayNaranja=true;
-        }
+                }
 
     }
     if(frutaClass=='zanahoria'){
