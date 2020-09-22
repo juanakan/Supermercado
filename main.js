@@ -411,7 +411,7 @@ carro.addEventListener('drop', e=>{
             container.appendChild(parrafo);
             hayPepino=true;
             }else{
-                precioPepino +=2;
+                precioPepino +=3.5;
 
             document.getElementById('costoPepino').innerHTML=`Pepino: ${precioPepino} €`;
             hayPepino=true;
