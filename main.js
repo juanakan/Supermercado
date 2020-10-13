@@ -476,9 +476,9 @@ carro.addEventListener('drop', e=>{
 
         
     }
-    //creamos la suma total y lo introducimos en la etiqueta correspondiente con innerHtml
-    let precioTotal=precioPera+precioNaranja+precioZanahoria+precioSandia+
+    //creamos la suma del total de la fruta y lo introducimos en la etiqueta correspondiente con innerHtml
+    let precioFinal=precioPera+precioNaranja+precioZanahoria+precioSandia+
         precioPepino+precioPimiento+precioCebolla+precioPlatano;
-    document.getElementById('total').innerHTML=`Total: ${precioTotal}€`;
+    document.getElementById('total').innerHTML=`Total: ${precioFinal}€`;
 
 });
