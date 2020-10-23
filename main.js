@@ -395,7 +395,7 @@ carro.addEventListener('drop', e=>{
                 precioSandia +=3;
 
                 document.getElementById('costoSandia').innerHTML=`Sandias: ${precioSandia}€`;
-                hayNaranja=true;
+                haySandia=true;
                 }
 
         
